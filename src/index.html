@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Jonathan's Portfolio</title>
+      <link rel="stylesheet" type="text/css" href="index.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+   </head>
+   <body>
+      <header>
+         <div>
+            <label>Jonathan López Castellanos</label>
+            <label>Software Developer</label>
+         </div>
+      </header>
+      <section class="description">
+         <p>
+            Hi! I am Computer and Systems Engineering student from the National
+            University of Colombia. My main interests are Fullstack App
+            Development, Software Design and Architecture, and Machine Learning.
+         </p>
+         <figure></figure>
+      </section>
+      <h1>My Skills</h1>
+      <section class="skills">
+         <img src="../imgs/skills/html.png" alt="" />
+         <img src="../imgs/skills/css.png" alt="" />
+         <img src="../imgs/skills/js.png" alt="" />
+         <img src="../imgs/skills/react.png" alt="" />
+         <img src="../imgs/skills/sass.png" alt="" />
+         <img src="../imgs/skills/java.jpg" alt="" />
+         <img src="../imgs/skills/springBoot.png" alt="" />
+         <img src="../imgs/skills/mysql.png" alt="" />
+         <img src="../imgs/skills/python.jpg" alt="" />
+         <img src="../imgs/skills/cpp.png" alt="" />
+      </section>
+      <h1>My Projects</h1>
+      <section class="projects">
+         <article onclick="showDetails(0)">
+            <h5>Amnesia Bar</h5>
+            <p>(Desktop)</p>
+            <time>Sep, 2019 – Feb, 2020</time>
+            <p>
+               Application made for a Brewpub business using JavaFX for the UI,
+               through MVC pattern and mainly focusing on Database Design and
+               Implementation with MySQL.
+            </p>
+         </article>
+         <article onclick="showDetails(1)">
+            <h5>Book In Pop Out</h5>
+            <p>(Mobile)</p>
+            <time>Apr, 2020 – Jul, 2020</time>
+            <p>
+               Java Android application for creating optimal real-time queues
+               for processes applying data structures, using Firebase
+               authentication, Servlets, and MySQL.
+            </p>
+         </article>
+         <article onclick="showDetails(2)">
+            <h5>Explora Projects</h5>
+            <p>(Web)</p>
+            <time>May, 2020 – Jun, 2020</time>
+            <p>
+               Web application made with React.js (classes approach), Firebase
+               database and authentication for allowing the creation of posts
+               about different topics to the students of Explora Intensive
+               English course.
+            </p>
+         </article>
+         <article onclick="showDetails(3)">
+            <h5>CronosUN</h5>
+            <p>(Web)</p>
+            <time>Apr, 2020 – Jul, 2020</time>
+            <p>
+               Web application made as a support for students. The main purpose
+               of this app was to gather experience with agile methodologies
+               (specifically SCRUM), fullstack application programming and API
+               design.
+            </p>
+         </article>
+      </section>
+      <section class="details">
+         <article>
+            <h4>Amnesia Bar</h4>
+            <p>
+               Amnesia Bar was the main project for the subject "Databases". It
+               is a single tier Java desktop application made using the library
+               JavaFX for the UI, JDBC and MySQL for the database (which was the
+               main focus of the project). Here is the link to the
+               <a
+                  href="https://github.com/Jonatlop07/AmnesiaBarApp"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Github repository.</a
+               >
+               <br /><br />
+               To summarize, we have:
+            </p>
+            <ul>
+               <li>
+                  The
+                  <a
+                     href="https://github.com/Jonatlop07/AmnesiaBarApp/blob/master/BaseDeDatosDocsYScripts/Documentos/Anexo1_DiagramaEntidadRelacion.pdf"
+                     target="_blank"
+                     rel="noreferrer noopener"
+                     >Entity Relationship Diagram</a
+                  >
+               </li>
+               <li>
+                  The
+                  <a
+                     href="https://github.com/Jonatlop07/AmnesiaBarApp/blob/master/BaseDeDatosDocsYScripts/Documentos/Anexo2_ModeloEntidadRelacion.pdf"
+                     target="_blank"
+                     rel="noreferrer noopener"
+                     >Entity Relationship Model</a
+                  >
+               </li>
+               <li>
+                  And the GUI:
+                  <div>
+                     <img
+                        src="../imgs/projects/amnesiaBar/loginView.png"
+                        alt=""
+                     />
+                     <img
+                        src="../imgs/projects/amnesiaBar/mainView1.png"
+                        alt=""
+                     />
+                     <img
+                        src="../imgs/projects/amnesiaBar/mainView2.png"
+                        alt=""
+                     />
+                  </div>
+               </li>
+            </ul>
+         </article>
+         <article>
+            <h4>Book In Pop Out</h4>
+            <p>
+               Book In Pop Out was the main project for the subject "Data
+               Structures". It is a three tier Java application using a mobile
+               client (made with Java, for Android) as frontend, Java servlets
+               as backend, and MySQL for the database. It allows clients the
+               creation of virtual "priority queues" for the services that
+               require them, avoiding agglomerations of people in large queues
+               waiting to be attended. Besides, it uses concurrency to handle
+               each client's turn. Here are the links to the Github repositories
+               for the
+               <a
+                  href="https://github.com/Jonatlop07/BookInPopOutMobile"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >client</a
+               >
+               and the
+               <a
+                  href="https://github.com/Jonatlop07/BookInPopOutBackend"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >backend.</a
+               >
+               <br /><br />
+               To summarize, we have:
+            </p>
+            <ul>
+               <li>
+                  The mobile client app (here is a short video showing a demo of
+                  it):
+               </li>
+               <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/bYHV2kxMqCE"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+               ></iframe>
+               <li>
+                  The backend (here is a
+                  <a
+                     href="https://github.com/Jonatlop07/BookInPopOutBackend/blob/master/ArquitecturaProyectoEstructuras%20(2).pdf"
+                     target="_blank"
+                     rel="noreferrer noopener"
+                     >model</a
+                  >
+                  for it).
+               </li>
+            </ul>
+         </article>
+         <article>
+            <h4>Explora Projects</h4>
+            <p>
+               Explora Projects was my first React project, which I made to
+               allow my classmates of the subject "Explora Intensive English",
+               the upload of the projects (a set of articles) we made for the
+               course. I coded it using React class components. At that time I
+               did not have knowledge of backend technologies. Therefore, I
+               chose Firebase to make the authentication, used its real-time
+               database to store the users and the posts/projects and to host
+               the app.
+               <br /><br />
+               If you would like to see the content of the app, here is the
+               <a
+                  href="https://fir-react-auth-explora.web.app/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >link</a
+               >
+               to it. Finally, here is the
+               <a
+                  href="https://github.com/Jonatlop07/ExploraProjectWebSite"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Github repository</a
+               >
+               if you want to look at the code.
+            </p>
+         </article>
+         <article>
+            <h4>CronosUN</h4>
+            <p>
+               CronosUN is a web application that originally started as the main
+               project for the subject "Software Engineering I". This project
+               was developed by a team of five people following some software
+               engineering practices. We began planning the requirements for the
+               project (60 was the goal), creating the use cases based on them,
+               and then we started its development with the SCRUM methodology,
+               with three sprints, two of them being completed. <br />
+               <br />
+               Aditionally, while making the project we learned about Spring
+               Boot, making a REST API (using MySQL as the database), and we
+               also learned how to make the authentication between the frontend
+               (made with React.js) and the backend. Regarding the frontent, we
+               decided to try Sass and React with Hooks to reduce and modularize
+               the codebase. Here are the links of the Github repositories for
+               the
+               <a
+                  href="https://github.com/Jonatlop07/CronosUNFrontend"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >frontend</a
+               >
+               and the
+               <a
+                  href="https://github.com/Jonatlop07/CronosUNBackend"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >backend</a
+               >.
+            </p>
+            To summarize, we have:
+            <ul>
+               <li>
+                  A
+                  <a
+                     href="https://github.com/Jonatlop07/CronosUNFrontend/blob/master/Manual%20de%20Usuario-CronosUN.pdf"
+                     target="_blank"
+                     rel="noreferrer noopener"
+                     >user guide</a
+                  >
+                  through the GUI, if you want to see how the app looks like
+               </li>
+               <li>
+                  A
+                  <a
+                     href="https://github.com/Jonatlop07/CronosUNBackend/blob/master/DiagramaClasesProyecto.jpg"
+                     target="_blank"
+                     rel="noreferrer noopener"
+                     >class diagram</a
+                  >
+                  that shows a bit of the backend structure
+               </li>
+            </ul>
+         </article>
+      </section>
+      <footer>
+         <strong>Cellphone:</strong> +57 304 614 4361 <br /><br />
+         <strong>Email:</strong> jolopezca@unal.edu.co - jonatlop@gmail.com
+         <br />
+         <div>
+            <a
+               href="https://github.com/Jonatlop07"
+               target="_blank"
+               rel="noreferrer noopener"
+               ><i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+
+            <br />
+            <a
+               href="https://www.linkedin.com/in/jonathan-lópez-castellanos-9208441a2"
+               target="_blank"
+               rel="noreferrer noopener"
+               ><i class="fab fa-linkedin" aria-hidden="true"></i
+            ></a>
+         </div>
+      </footer>
+      <script src="index.js"></script>
+   </body>
+</html>
