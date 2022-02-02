@@ -35,11 +35,9 @@ a:active {
 header {
    display: flex;
    flex-direction: column;
-   margin: 2rem 20%;
+   margin: 2rem auto;
+   padding: 2rem;
    align-items: center;
-   color: #ffffff;
-   height: 100vh;
-   background: url("../imgs/MyPicture.png");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -50,14 +48,7 @@ header {
       0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
-header div {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   position: absolute;
-   bottom: 1rem;
-}
+
 
 header label:nth-child(1) {
    font-size: 3rem;
@@ -108,7 +99,7 @@ section {
 
 .projects {
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(3, 1fr);
    grid-row-gap: 3rem;
    grid-column-gap: 3rem;
    width: fit-content;
